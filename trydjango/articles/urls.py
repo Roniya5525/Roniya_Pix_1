@@ -15,7 +15,7 @@ Including another URLconf
 """
 
 from django.urls import path
-from .views import article_detail_view
+
 urlpatterns = [
-    path('home/', article_detail_view),
+    path('home/', ),
 ]
