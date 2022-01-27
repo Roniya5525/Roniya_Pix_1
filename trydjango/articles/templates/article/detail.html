@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome...</h1>
+    <h1>{{ object.title }}</h1>
+    <p>{{ object.content }}</p>
+    <p>{{ object.author }}</p>
+    <p>Publisher {{ object.user.username }}</p>
+
+{% endblock content %}
